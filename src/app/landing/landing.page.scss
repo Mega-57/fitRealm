@@ -1,0 +1,41 @@
+ion-content{
+    color: white;
+    --ion-background-color: #046E9E;
+}
+.title{
+    font-size: 80px;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}
+.title2{
+    font-size: 40px;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}
+.small-text {
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+ion-toolbar{--ion-background-color:  #98E01A;}
+.logintitle{
+    background-color: #98E01A;
+}
+.logo{
+    height: 375px;
+    width: auto;
+    margin: auto;
+    display: block;
+    }
+ .already {
+        display: block;
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 20px; 
+        font-family: Helvetica;
+        color: white;
+ }
