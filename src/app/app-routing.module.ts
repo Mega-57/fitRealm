@@ -50,6 +50,10 @@ const routes: Routes = [
     path: 'tab2',
     loadChildren: () => import('./tab2/tab2.module').then( m => m.Tab2PageModule)
   },
+  {
+    path: 'testad',
+    loadChildren: () => import('./testad/testad.module').then( m => m.TestadPageModule)
+  },
 ];
 @NgModule({
   imports: [
