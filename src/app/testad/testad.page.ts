@@ -14,8 +14,8 @@ export class TestadPage implements OnInit {
 
     let bannerConfig: AdMobFreeBannerConfig = {
         isTesting: true, // Remove in production
-        autoShow: true
-        //id: Your Ad Unit ID goes here
+        autoShow: true,
+        id: 'ca-app-pub-2998041479141021/7557254413'
     };
 
     this.admob.banner.config(bannerConfig);
