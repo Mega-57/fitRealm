@@ -9,13 +9,13 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Do 25 {{chosenExercise}} in 5 minutes</ion-title>
+      <ion-title size="large">Do 25 {{chosenExercise}} in 1 minute</ion-title>
     </ion-toolbar>
   </ion-header>
 
 <ion-card *ngIf="timer">
 	<ion-card-header>
-    <span>Do 25 {{chosenExercise}} in 5 minutes</span>
+    <span>Do 25 {{chosenExercise}} in 1 minute</span>
     <br>
     <br>
 		<button ion-button *ngIf="timeInSeconds && timeInSeconds > 0" large block clear class="timer-button x-large">{{timer.displayTime}}</button>
